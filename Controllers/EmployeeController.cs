@@ -7,9 +7,6 @@ using System.Web.Http;
 
 namespace WebApiDemo.Controllers
 {
-    /// <summary>
-    /// Attribute Based Controller
-    /// </summary>
     [RoutePrefix("api/employee")]
     public class EmployeeController : ApiController
     {

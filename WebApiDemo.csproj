@@ -156,6 +156,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Constraints\LastLetter.cs" />
+    <Compile Include="Controllers\AbrController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\AcbController.cs" />
     <Compile Include="Controllers\Employee.cs" />
