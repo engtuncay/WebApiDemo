@@ -308,6 +308,12 @@
     <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.0.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrakYazilimLib\OrakYazilimLib.csproj">
+      <Project>{04d51c72-6b1a-4e0b-8e88-3ac5b4de94e6}</Project>
+      <Name>OrakYazilimLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
